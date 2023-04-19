@@ -1,0 +1,349 @@
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+.header .logo {
+  width: 60px;
+}
+
+.header .title {
+  letter-spacing: 3px;
+}
+
+.header .nav li.active {
+  background: #e5e5e5;
+}
+
+.header .nav li.active a {
+  color: #0b0b0b;
+}
+
+.header .nav li a {
+  letter-spacing: 0.5px;
+  color: #00ebf3;
+}
+
+.header .download-whitepaper {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  letter-spacing: 0.7px;
+  color: #00ebf3;
+  -webkit-box-shadow: inset 3px 3px 5px #e5e5e5;
+          box-shadow: inset 3px 3px 5px #e5e5e5;
+}
+
+.nucleostartup .logo {
+  height: auto;
+}
+
+.key-features .container,
+.what-is-money .container,
+.team .container,
+.timeline .container,
+.cryptonit-achievements .container {
+  width: 90%;
+  position: relative;
+}
+
+.key-features .container .line,
+.what-is-money .container .line,
+.team .container .line,
+.timeline .container .line,
+.cryptonit-achievements .container .line {
+  position: absolute;
+  left: -4.200rem;
+  top: 1.375rem;
+  width: 4rem;
+  height: 0.5rem;
+  background: #cccccc;
+  border-radius: 100px;
+}
+
+.what-is-money .video {
+  height: auto;
+  background: rgba(0, 200, 255, 0.2);
+}
+
+.what-is-money .video .logo {
+  width: 40%;
+}
+
+.team .row img {
+  border-radius: 30px 30px 0 0;
+}
+
+.team .more-team {
+  color: #00c8ff;
+}
+
+.team .more-team .icon {
+  width: 14px;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(1) {
+  position: relative;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(1) .line {
+  all: unset;
+  position: absolute;
+  top: 50%;
+  left: 8.5px;
+  width: 2px;
+  height: calc(100% - 20px);
+  background: #e3e3e3;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: -1;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(1) .title .circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #cccccc;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(1) .upcomming {
+  position: relative;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(1) .upcomming span {
+  font-size: 0.8rem;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(1) .upcomming .line {
+  all: unset;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  display: inline-block;
+  height: 0.5px;
+  background: #e3e3e3;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: -1;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) {
+  height: auto;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) .chart {
+  position: relative;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) .chart .chart {
+  width: 400px;
+  height: 400px;
+  background-image: conic-gradient(#fe5d5b 0 60%, #ffd166 60% 70%, #86f1f9 70% 80%, #25547c 80% 100%);
+  border-radius: 50%;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) .chart .circle {
+  width: 330px;
+  height: 330px;
+  position: absolute;
+  top: 50%;
+  background: #ffffff;
+  border-radius: 1000px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) .chart .circle .logo {
+  position: absolute;
+  width: 85%;
+  height: 85%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+@media (max-width: 1200px) {
+  .timeline .container > .row:nth-child(2) > div:nth-child(2) .chart .chart {
+    width: 320px;
+    height: 320px;
+  }
+  .timeline .container > .row:nth-child(2) > div:nth-child(2) .chart .circle {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 500px) {
+  .timeline .container > .row:nth-child(2) > div:nth-child(2) .chart .chart {
+    width: 260px;
+    height: 260px;
+  }
+  .timeline .container > .row:nth-child(2) > div:nth-child(2) .chart .circle {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 350px) {
+  .timeline .container > .row:nth-child(2) > div:nth-child(2) .chart .chart {
+    width: 230px;
+    height: 230px;
+  }
+  .timeline .container > .row:nth-child(2) > div:nth-child(2) .chart .circle {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) .data {
+  max-width: 400px;
+  color: #535353;
+  font-size: 0.8rem;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) .data > div .color {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) .data > div:nth-child(1) .color {
+  background: #fe5d5b;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) .data > div:nth-child(2) .color {
+  background: #ffd166;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) .data > div:nth-child(3) .color {
+  background: #86f1f9;
+}
+
+.timeline .container > .row:nth-child(2) > div:nth-child(2) .data > div:nth-child(4) .color {
+  background: #25547c;
+}
+
+.cryptonit-achievements .row:nth-child(2) .active .box {
+  background: #00c8ff !important;
+  color: #ffffff !important;
+}
+
+.cryptonit-achievements .row:nth-child(2) .active .box .line {
+  background: #ffffff;
+}
+
+.cryptonit-achievements .row:nth-child(2) .line {
+  all: unset;
+  display: inline-block;
+  width: 3.75rem;
+  height: 0.375rem;
+  background: #cccccc;
+  border-radius: 100px;
+}
+
+.latest-news button {
+  background: #00c8ff;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+}
+
+.latest-news .logos1 img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+@supports (height: min-intrinsic) {
+  .latest-news .logos1 img {
+    height: min-intrinsic;
+  }
+}
+
+.latest-news .logos1 img:nth-child(1) {
+  width: 80px;
+}
+
+.latest-news .logos1 img:nth-child(2) {
+  width: 120px;
+}
+
+.latest-news .logos1 img:nth-child(3) {
+  width: 40px;
+}
+
+.latest-news .logos2 img {
+  height: auto;
+}
+
+.latest-news .logos2 img:nth-child(1) {
+  width: 120px;
+}
+
+.latest-news .logos2 img:nth-child(2) {
+  width: 180px;
+}
+
+.latest-news .logos2 img:nth-child(3) {
+  width: 70px;
+}
+
+.footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e5e5e5));
+  background: linear-gradient(#ffffff, #e5e5e5);
+}
+
+.footer .twitter .box {
+  background: #1da1f2;
+}
+
+.footer .useful-links a {
+  color: #00c8ff;
+}
+
+.footer .useful-links a .icon {
+  width: 13px;
+}
+
+.footer .line {
+  all: unset;
+  display: inline-block;
+  width: 3.75rem;
+  height: 0.375rem;
+  background: #d2d2d2;
+  border-radius: 100px;
+}
+
+@media (max-width: 500px) {
+  .footer .line {
+    height: 4px;
+  }
+}
+
+.footer .future-partnership img {
+  height: auto;
+}
+
+@media (max-width: 500px) {
+  .footer .cryptonit {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 11px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
